@@ -1,0 +1,316 @@
+@media(max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+    .contact-group button {
+        padding: 10px 35px;
+    }
+}
+
+@media(max-width:992px){
+    .site-logo img {
+        max-width: 200px;
+    }
+    .main-nav ul {
+        align-items: flex-start;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .main-nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 400px;
+        background: #fff;
+        z-index: 99;
+        padding: 50px;
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+    }
+    .menuToggle .main-nav{
+        transform: translateX(0%);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+    .close {
+        display: block;
+        font-size: 20px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #000;
+    }
+    .toggle{
+        display: block;
+        font-size: 25px;
+        color: #000;
+    }
+    .site-banner {
+        height: 60vh;
+    }
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+    .banner-text p {
+        font-size: 1.3625rem;
+    }
+    .update-img {
+        height: 70px;
+        width: 70px;
+    }
+    .update-text p {
+        font-size: 1.105rem;
+    }
+    .update-wrap {
+        padding: 15px;
+    }
+  
+    .abt-img {
+        height: 100%;
+    }
+    .site-banner.sub-banner {
+        height: 400px;
+    }
+    .sub-banner .banner-text h1 {
+        font-size: 2.5125rem;
+    }
+        /* Cookies CSS Start */
+        .info p {
+            font-size: 14px;
+        }
+    
+        .button {
+            width: calc(55% / 2 - 10px);
+            font-size: 14px;
+        }
+    
+        /* Cookies CSS End */
+}
+
+@media(max-width:850px){
+    .counter-container {
+        flex-wrap: wrap;
+    }
+    .counter {
+        width: 49%;
+        margin-bottom: 15px;
+        height: 200px;
+    }
+    .sports-text {
+        padding: 0 10px;
+    }
+    .sports-img {
+        height: 250px;
+    }
+    .about-sec .row, .update-sec .row {
+        flex-direction: column;
+    }
+    .about-sec .col-md-6, .update-sec .col-md-4{
+        width: 100%;
+    }
+    .update-sec .col-md-4{
+        margin-bottom: 20px;
+    }
+    .abt-img {
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    .update-wrap {
+        padding: 30px;
+    }
+    .site-footer .row {
+        flex-direction: column;
+    }
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+    .footer-heading h3 {
+        font-size: 1.5625rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #0e0c23;
+    }
+    .site-footer .col-md-4{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .how-to-play .row{
+        flex-direction: column;
+    }
+    .how-to-play .col-md-6 {
+        width: 100%;
+    }
+    .contact-main .row {
+        flex-direction: column-reverse;
+    }
+    .contact-main .col-md-6{
+        width: 100%;
+    }
+    .cookie-content {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+}
+@media(max-width:767px){
+    .site-banner {
+        height: 50vh;
+    }
+    .banner-text h1 {
+        font-size: 2.8rem;
+    }
+    .banner-text p {
+        font-size: 1.2625rem;
+    }
+    .sign-up {
+        padding: 50px 0;
+    }
+    .first-bx .row {
+        flex-direction: column-reverse;
+    }
+    .sports-img {
+        margin-bottom: 10px;
+    }
+    .sports-box {
+        margin: 20px 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .contact-group textarea {
+        height: 250px;
+    }
+    .form-group {
+        width: 100%;
+    }
+        /* Cookies CSS Start */
+        .wrapper {
+            padding: 20px 10px;
+        }
+    
+        .info p {
+            font-size: 13px;
+        }
+    
+        .button {
+            font-size: 13px;
+            padding: 6px;
+        }
+    
+        /* Cookies CSS End */
+}
+
+
+@media(max-width:574px){
+
+    .form-group input {
+        width: 100%;
+        border-radius: 5px;
+    
+}
+    .form-group {
+        flex-direction: column;
+        border-radius: 0;
+
+    }
+    .form-group button {
+        width: fit-content;
+        padding: 0 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+
+    }
+    .site-heading h2 {
+        font-size: 2rem;
+    }
+    .newsletter-group {
+        width: 100%;
+    }
+    .newsletter-wrap {
+        padding: 50px 15px;
+    }
+    .main-nav {
+        width: 100%;
+    }
+    .top-text {
+        padding: 15px;
+    }
+    .site-banner.sub-banner {
+        height: 380px;
+    }
+    .contact-group input, .contact-group textarea {
+        height: 45px;
+        padding: 10px 15px;
+    }
+    .contact-group textarea {
+        height: 200px;
+    }
+        /* Cookies CSS Start */
+        .info p {
+            font-size: 13px;
+        }
+    
+        .button {
+            width: calc(60% / 2 - 10px);
+            font-size: 13px;
+        }
+    
+        /* Cookies CSS End */
+        .copy-right {
+            flex-direction: column;
+            gap: 10px;
+        }
+        .ssl-logo {
+            max-width: 100px;
+        }
+}
+@media(max-width:375px){
+    .counter {
+        width: 100%;
+        height: 180px;
+    }
+    .sports-text h3 {
+        font-size: 1.575rem;
+    }
+    .sports-text p {
+        font-size: 1.15rem;
+    }
+    .abt-img {
+        height: 300px;
+    }
+    .abt-text h3 {
+        font-size: 2rem;
+    }
+    .abt-text p {
+        font-size: 1.15rem;
+    }
+    .update-wrap {
+        padding: 25px 15px;
+    }
+    .site-logo img {
+        max-width: 150px;
+    }
+    .toggle {
+        font-size: 22px;
+    }
+    
+ 
+  
+    .ptb-50 {
+        padding: 40px 0;
+    }
+        /* Cookies CSS Start */
+        .info p {
+            font-size: 12px;
+        }
+    
+        .buttons {
+            gap: 10px;
+        }
+    
+        .button {
+            width: calc(80% / 2 - 10px);
+            font-size: 13px;
+        }
+    
+        /* Cookies CSS End */
+}
